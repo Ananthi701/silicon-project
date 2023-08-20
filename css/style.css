@@ -1,0 +1,120 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} 
+.row>* {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-top: var(--bs-gutter-y);
+}
+.first-section-icons{
+	display:flex;
+	justify-content:center;
+	font-size: 25px;
+}
+.section2-bg{
+	background-color: rgb(15 31 48);
+}
+.head-silicon_1{
+	background-color: rgb(65, 164, 222);
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: white;
+}
+.head-silicon_1 a{
+	text-decoration: none;
+	color: white;
+}
+.head-silicon_2{
+	background-color: rgb(15 31 48);
+	padding: 10px 15px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.head-silicon_2 a{
+	text-decoration: none;
+	color: white;
+}
+.hide-menubar li{
+	list-style-type: none;
+	padding-left: 10px;
+}
+.res-head-img{
+	display: flex;
+	align-items: top;
+	justify-content: end;
+}
+
+.menus{
+	list-style-type: none;
+	display: flex;
+	position: sticky;
+	top: 0px;
+	align-items: center;
+}
+.drop-1{
+	position:relative;
+	padding: 5px 10px;
+}
+.drop-1 a{
+	text-decoration: none;
+	color: white ;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.drop-1 a:hover{
+	color: white;
+}
+.drop-2 li{
+	line-height:15px;
+	list-style-type: none;	
+	padding: 10px 10px;
+	font-size: 20px;
+}
+.drop-2 li a{
+	text-transform: capitalize;
+}
+.drop-2 li:hover{
+	background-color: #289dcc;
+}
+.drop-2{
+	position:absolute;
+	width:200px;
+	left: 0;
+	visibility:hidden;
+	transform: translateY(4px);
+	background-color:rgb(48, 45, 45);
+}
+.drop-1:hover .drop-2{ 
+	visibility:visible;
+}
+.drop-1:hover{
+	background-color: #289dcc;
+}
+.menu-line{
+	background-color: #289dcc;
+	height: 4px;
+	width: 100%;
+}
+.section3-bg{
+	background-color: black;
+}
+.input-box input{
+	padding:8px 0px 8px 15px;
+	border-radius:22px;
+	border-width:0px;
+	width:95%;
+	margin:0px 0px 40px 0px;
+}
+.submit-btn button{
+	margin:10px 0px 30px 0px;
+	background:linear-gradient(to right,#0000ff3b,blue);
+	padding:8px 15px;
+	width:10%;
+	border-radius:22px;
+	border-width:0px;
+	color:white;
+}

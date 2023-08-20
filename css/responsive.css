@@ -1,0 +1,25 @@
+@media (max-width:576px){
+	.res-head-img{
+		display: flex;
+		justify-content: center !important;
+	}
+	.res-support-login{
+		margin: 40px 0px 10px 5px;
+		display: inline-block;
+	}
+	.res-img-sec5{
+		height: 300px !important;
+	}
+}
+@media (min-width:576px){
+	 
+}
+@media (min-width:768px){
+	 
+}
+@media (min-width:992px){
+	.first-section-icons{
+		display: flex;
+		justify-content: end;
+	}
+}
